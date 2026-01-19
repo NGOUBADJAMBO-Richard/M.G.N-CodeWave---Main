@@ -104,7 +104,7 @@
           $this.removeClass(showClass);
           $this.find($dropdownToggle).attr("aria-expanded", "false");
           $this.find($dropdownMenu).removeClass(showClass);
-        }
+        },
       );
     } else {
       $dropdown.off("mouseenter mouseleave");
@@ -176,4 +176,48 @@
       },
     },
   });
+
+  // Active nav link helper
+  (function setActiveNavLink() {
+    try {
+      var path = window.location.pathname || "";
+      var isPortfolioDetail = path.indexOf("/portfolio/") !== -1;
+      var $nav = $("nav.navbar");
+      if (!$nav.length) return;
+
+      // Clear existing active states to avoid duplicates
+      $nav
+        .find(".nav-link, .dropdown-item")
+        .removeClass("active")
+        .removeAttr("aria-current");
+
+      function mark(selector) {
+        var $el = $nav.find(selector).first();
+        if ($el.length) {
+          $el.addClass("active").attr("aria-current", "page");
+        }
+      }
+
+      if (isPortfolioDetail) {
+        mark('a[href$="portfolio.html"]');
+        return;
+      }
+
+      if (/about\.html$/i.test(path)) return mark('a[href$="about.html"]');
+      if (/service\.html$/i.test(path)) return mark('a[href$="service.html"]');
+      if (/portfolio\.html$/i.test(path))
+        return mark('a[href$="portfolio.html"]');
+      if (/tarifs\.html$/i.test(path)) return mark('a[href$="tarifs.html"]');
+      if (/contact\.html$/i.test(path)) return mark('a[href$="contact.html"]');
+      if (/cgu\.html$/i.test(path)) return mark('a[href$="cgu.html"]');
+      if (/mentions-legale\.html$/i.test(path))
+        return mark('a[href$="mentions-legale.html"]');
+
+      // Default to Accueil for index or unknown
+      if (/index\.html$/i.test(path) || /\/$/.test(path))
+        return mark('a[href$="index.html"]');
+    } catch (e) {
+      // Silencieux pour éviter toute casse en prod
+    }
+  })();
 })(jQuery);
