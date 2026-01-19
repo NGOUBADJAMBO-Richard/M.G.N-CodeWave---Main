@@ -1,0 +1,1022 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <title>
+      M.G.N CodeWave - Création de Sites Web et Solutions Digitales au Gabon
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="keywords"
+      content="CodeWave, développeur web Gabon, création site vitrine, e-commerce, portfolio, front-end, back-end, React, Laravel, maintenance web"
+    />
+    <meta
+      name="description"
+      content="M.G.N CodeWave : Votre expert en développement web au Gabon. Nous concevons des sites modernes et performants pour les PME, startups et entrepreneurs."
+    />
+    <link href="img/logo/codewave.png" rel="icon" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/improvements.css" />
+  </head>
+
+  <body>
+    <!-- Spinner Start -->
+    <div
+      id="spinner"
+      class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+      aria-hidden="true"
+    >
+      <div class="spinner" role="status" aria-label="Chargement en cours"></div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Topbar Start -->
+    <div
+      class="container-fluid bg-dark px-3 px-lg-5 d-none d-lg-block"
+      role="region"
+      aria-label="Informations de contact rapides"
+    >
+      <div class="row gx-0">
+        <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
+          <div class="d-inline-flex align-items-center" style="height: 45px">
+            <small class="me-3 text-light"
+              ><i class="fa fa-map-marker-alt me-2" aria-hidden="true"></i
+              >Libreville, Gabon</small
+            >
+            <small class="me-3 text-light"
+              ><i class="fa fa-phone-alt me-2" aria-hidden="true"></i
+              ><a
+                href="tel:+24166198918"
+                class="text-light text-decoration-none"
+                >+241 66 19 89 18</a
+              ></small
+            >
+            <small class="text-light"
+              ><i class="fa fa-envelope-open me-2" aria-hidden="true"></i
+              ><a
+                href="mailto:ngoubadjambo18@gmail.com"
+                class="text-light text-decoration-none"
+                >ngoubadjambo18@gmail.com</a
+              ></small
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Topbar End -->
+
+    <!-- Navbar & Carousel Start -->
+    <header class="container-fluid position-relative p-0" role="banner">
+      <nav
+        class="navbar navbar-expand-lg navbar-dark px-3 px-lg-5 py-3 py-lg-0"
+        aria-label="Navigation principale"
+      >
+        <div class="container-fluid px-0">
+          <a
+            href="index.html"
+            class="navbar-brand d-flex align-items-center p-0"
+            aria-label="Accueil CodeWave"
+          >
+            <img
+              src="img/logo/codewave.png"
+              alt="Logo CodeWave"
+              height="40"
+              loading="lazy"
+              class="me-2"
+            />
+            <span class="h5 m-0 fw-bold text-white">CodeWave</span>
+          </a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse"
+            aria-controls="navbarCollapse"
+            aria-expanded="false"
+            aria-label="Basculer la navigation"
+          >
+            <span class="fa fa-bars" aria-hidden="true"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav ms-auto py-0 align-items-lg-center">
+              <li class="nav-item">
+                <a href="index.html" class="nav-link active" aria-current="page"
+                  >Accueil</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="service.html" class="nav-link">Services</a>
+              </li>
+              <li class="nav-item">
+                <a href="portfolio.html" class="nav-link">Portfolio</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  data-bs-toggle="dropdown"
+                  role="button"
+                  aria-expanded="false"
+                  >Ressources</a
+                >
+                <ul class="dropdown-menu m-0">
+                  <li>
+                    <a href="about.html" class="dropdown-item">À Propos</a>
+                  </li>
+                  <li>
+                    <a href="tarifs.html" class="dropdown-item"
+                      >Tarifs & Devis</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="contact.html" class="nav-link">Contact</a>
+              </li>
+            </ul>
+
+            <a
+              href="tarifs.html"
+              class="btn btn-primary py-2 px-4 ms-3"
+              role="button"
+              aria-label="Demander un devis"
+              >Demander un Devis</a
+            >
+          </div>
+        </div>
+      </nav>
+
+      <div
+        id="header-carousel"
+        class="carousel slide carousel-fade"
+        data-bs-ride="carousel"
+        aria-label="Carrousel d'images présentant CodeWave"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              class="w-100"
+              src="img/carousel-1.jpg"
+              alt="Solutions digitales CodeWave"
+              loading="lazy"
+            />
+            <div
+              class="carousel-caption d-flex flex-column align-items-center justify-content-center text-center p-3"
+            >
+              <div style="max-width: 900px">
+                <h5 class="text-white text-uppercase mb-2 animated slideInDown">
+                  🇬🇦 Votre Partenaire Digital de Confiance au Gabon
+                </h5>
+                <h1
+                  class="display-6 display-md-3 text-white mb-3 animated zoomIn"
+                >
+                  Votre Site Web Prêt en 2 Semaines
+                </h1>
+                <p class="fs-5 text-white mb-4 animated slideInDown">
+                  Des designs modernes testés sur tous les appareils. Livraison
+                  rapide, prix compétitifs.
+                </p>
+                <div class="d-flex flex-wrap gap-3 justify-content-center">
+                  <a
+                    href="tarifs.html"
+                    class="btn btn-primary btn-lg mt-2"
+                    role="button"
+                    aria-label="Demander un devis"
+                    >Demander un Devis Gratuit</a
+                  >
+                  <a
+                    href="https://wa.me/24166198918?text=Bonjour,%20je%20souhaite%20discuter%20d%27un%20projet%20web"
+                    target="_blank"
+                    class="btn btn-outline-light btn-lg mt-2"
+                    role="button"
+                    aria-label="WhatsApp Direct"
+                    ><i class="fab fa-whatsapp me-2"></i>WhatsApp Direct</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img
+              class="w-100"
+              src="img/carousel-2.jpg"
+              alt="Sites e-commerce CodeWave"
+              loading="lazy"
+            />
+            <div
+              class="carousel-caption d-flex flex-column align-items-center justify-content-center text-center p-3"
+            >
+              <div style="max-width: 900px">
+                <h5 class="text-white text-uppercase mb-2 animated slideInDown">
+                  ⚡ Livraison Rapide - Support Dédié
+                </h5>
+                <h1
+                  class="display-6 display-md-3 text-white mb-3 animated zoomIn"
+                >
+                  Boutique en Ligne avec Paiement Sécurisé
+                </h1>
+                <p class="fs-5 text-white mb-4 animated slideInDown">
+                  E-commerce à partir de 300 000 FCFA. Gestion produits,
+                  paiement en ligne, suivi des commandes.
+                </p>
+                <div class="d-flex flex-wrap gap-3 justify-content-center">
+                  <a
+                    href="tarifs.html#ecommerce"
+                    class="btn btn-primary btn-lg mt-2"
+                    role="button"
+                    aria-label="Découvrir l'e-commerce"
+                    >Découvrir l'E-commerce</a
+                  >
+                  <a
+                    href="portfolio.html"
+                    class="btn btn-outline-light btn-lg mt-2"
+                    role="button"
+                    aria-label="Voir nos réalisations"
+                    >Nos Réalisations</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#header-carousel"
+          data-bs-slide="prev"
+          aria-label="Image précédente"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Précédent</span>
+        </button>
+
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#header-carousel"
+          data-bs-slide="next"
+          aria-label="Image suivante"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Suivant</span>
+        </button>
+      </div>
+    </header>
+    <!-- Navbar & Carousel End -->
+
+    <!-- About Start -->
+    <main>
+      <section
+        class="container-fluid py-5 wow fadeInUp"
+        data-wow-delay="0.1s"
+        aria-labelledby="about-title"
+      >
+        <div class="container py-5">
+          <div class="row g-5 align-items-center">
+            <div class="col-lg-7">
+              <header
+                class="section-title position-relative pb-3 mb-4"
+                id="about-title"
+              >
+                <h5 class="fw-bold text-primary text-uppercase">
+                  À Propos de CodeWave
+                </h5>
+                <h1 class="mb-0">
+                  L'expertise digitale au service de votre succès au Gabon
+                </h1>
+              </header>
+
+              <p class="mb-4 text-muted">
+                M.G.N CodeWave conçoit des sites modernes, sécurisés et
+                optimisés pour les usages locaux : mobile-first, paiements
+                locaux, intégration WhatsApp. Nous accompagnons PME et
+                indépendants de la stratégie à la mise en production.
+              </p>
+
+              <div class="row g-3 mb-4">
+                <div class="col-sm-6">
+                  <div class="d-flex">
+                    <div
+                      class="bg-primary text-white rounded d-flex align-items-center justify-content-center me-3"
+                      style="width: 48px; height: 48px"
+                    >
+                      <i class="fa fa-code"></i>
+                    </div>
+                    <div>
+                      <h6 class="mb-1">Expertise technique</h6>
+                      <p class="mb-0 text-muted small">
+                        Front‑end, back‑end et intégrations.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="d-flex">
+                    <div
+                      class="bg-primary text-white rounded d-flex align-items-center justify-content-center me-3"
+                      style="width: 48px; height: 48px"
+                    >
+                      <i class="fa fa-project-diagram"></i>
+                    </div>
+                    <div>
+                      <h6 class="mb-1">Méthodologie agile</h6>
+                      <p class="mb-0 text-muted small">
+                        Livraison itérative et communication claire.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="d-flex">
+                    <div
+                      class="bg-primary text-white rounded d-flex align-items-center justify-content-center me-3"
+                      style="width: 48px; height: 48px"
+                    >
+                      <i class="fa fa-shield-alt"></i>
+                    </div>
+                    <div>
+                      <h6 class="mb-1">Sécurité & performance</h6>
+                      <p class="mb-0 text-muted small">
+                        Bonnes pratiques et monitoring.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="d-flex">
+                    <div
+                      class="bg-primary text-white rounded d-flex align-items-center justify-content-center me-3"
+                      style="width: 48px; height: 48px"
+                    >
+                      <i class="fa fa-headset"></i>
+                    </div>
+                    <div>
+                      <h6 class="mb-1">Support local</h6>
+                      <p class="mb-0 text-muted small">
+                        Assistance réactive depuis Libreville.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="d-flex align-items-center gap-3">
+                <a href="tarifs.html" class="btn btn-primary btn-lg"
+                  >Demander un Devis</a
+                >
+                <a href="contact.html" class="btn btn-outline-primary btn-lg"
+                  >Contactez‑nous</a
+                >
+              </div>
+            </div>
+
+            <div class="col-lg-5">
+              <figure class="shadow-sm rounded overflow-hidden h-100">
+                <img
+                  src="img/about.jpg"
+                  alt="Équipe CodeWave"
+                  class="img-fluid w-100 h-100"
+                  style="object-fit: cover"
+                  loading="lazy"
+                />
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Features / Why choose -->
+      <section
+        class="container-fluid py-5 wow fadeInUp"
+        data-wow-delay="0.1s"
+        aria-labelledby="features-title"
+      >
+        <div class="container py-5">
+          <div
+            class="section-title text-center position-relative pb-3 mb-5 mx-auto"
+            style="max-width: 600px"
+          >
+            <h5 id="features-title" class="fw-bold text-primary text-uppercase">
+              Pourquoi Nous Choisir
+            </h5>
+            <h1 class="mb-0">
+              Votre partenaire idéal pour la croissance digitale
+            </h1>
+          </div>
+
+          <div class="row g-4">
+            <div class="col-lg-4">
+              <div class="card h-100 border-0 shadow-sm">
+                <div class="card-body">
+                  <div
+                    class="bg-primary rounded d-inline-flex align-items-center justify-content-center mb-3"
+                    style="width: 60px; height: 60px"
+                  >
+                    <i class="fa fa-map-marked-alt text-white"></i>
+                  </div>
+                  <h4>Expertise locale & globale</h4>
+                  <p class="mb-0 text-muted">
+                    Solutions adaptées au marché gabonais avec standards
+                    internationaux.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4">
+              <div class="card h-100 border-0 shadow-sm">
+                <div class="card-body">
+                  <div
+                    class="bg-primary rounded d-inline-flex align-items-center justify-content-center mb-3"
+                    style="width: 60px; height: 60px"
+                  >
+                    <i class="fa fa-cogs text-white"></i>
+                  </div>
+                  <h4>Méthodologie orientée résultats</h4>
+                  <p class="mb-0 text-muted">
+                    Agile, tests et optimisation continue.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4">
+              <div class="card h-100 border-0 shadow-sm">
+                <div class="card-body">
+                  <div
+                    class="bg-primary rounded d-inline-flex align-items-center justify-content-center mb-3"
+                    style="width: 60px; height: 60px"
+                  >
+                    <i class="fa fa-headset text-white"></i>
+                  </div>
+                  <h4>Support et maintenance</h4>
+                  <p class="mb-0 text-muted">
+                    Offres d'hébergement, sauvegardes et support prioritaire.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Stats Counter Start -->
+      <section
+        class="container-fluid facts py-5 pt-lg-0"
+        aria-labelledby="stats-title"
+      >
+        <div class="container py-5 pt-lg-0">
+          <div class="row gx-0">
+            <div class="col-lg-4 wow zoomIn" data-wow-delay="0.1s">
+              <div
+                class="bg-primary shadow d-flex align-items-center justify-content-center p-4"
+                style="height: 150px"
+              >
+                <div
+                  class="bg-white d-flex align-items-center justify-content-center rounded mb-2"
+                  style="width: 60px; height: 60px"
+                >
+                  <i class="fa fa-users text-primary"></i>
+                </div>
+                <div class="ps-4">
+                  <h5 class="text-white mb-0">Clients Satisfaits</h5>
+                  <h1 class="text-white mb-0" data-toggle="counter-up">20</h1>
+                  <small class="text-white">+</small>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 wow zoomIn" data-wow-delay="0.3s">
+              <div
+                class="bg-light shadow d-flex align-items-center justify-content-center p-4"
+                style="height: 150px"
+              >
+                <div
+                  class="bg-primary d-flex align-items-center justify-content-center rounded mb-2"
+                  style="width: 60px; height: 60px"
+                >
+                  <i class="fa fa-check text-white"></i>
+                </div>
+                <div class="ps-4">
+                  <h5 class="text-primary mb-0">Projets Réalisés</h5>
+                  <h1 class="mb-0" data-toggle="counter-up">50</h1>
+                  <small class="text-primary">+</small>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 wow zoomIn" data-wow-delay="0.6s">
+              <div
+                class="bg-primary shadow d-flex align-items-center justify-content-center p-4"
+                style="height: 150px"
+              >
+                <div
+                  class="bg-white d-flex align-items-center justify-content-center rounded mb-2"
+                  style="width: 60px; height: 60px"
+                >
+                  <i class="fa fa-award text-primary"></i>
+                </div>
+                <div class="ps-4">
+                  <h5 class="text-white mb-0">Années d'Expérience</h5>
+                  <h1 class="text-white mb-0" data-toggle="counter-up">2</h1>
+                  <small class="text-white">+</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Stats Counter End -->
+
+      <!-- Services Detailed Start -->
+      <section
+        class="container-fluid py-5 wow fadeInUp"
+        data-wow-delay="0.1s"
+        aria-labelledby="services-title"
+      >
+        <div class="container py-5">
+          <div
+            class="section-title text-center position-relative pb-3 mb-5 mx-auto"
+            style="max-width: 600px"
+          >
+            <h5 id="services-title" class="fw-bold text-primary text-uppercase">
+              Nos Services
+            </h5>
+            <h1 class="mb-0">
+              Des solutions complètes pour tous vos besoins web
+            </h1>
+          </div>
+
+          <div class="row g-5">
+            <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
+              <div
+                class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center h-100 p-4"
+              >
+                <div class="service-icon">
+                  <i class="fa fa-desktop text-white"></i>
+                </div>
+                <h4 class="mb-3">Sites Vitrines</h4>
+                <p class="m-0">
+                  Sites web professionnels pour présenter votre activité. Design
+                  responsive, optimisation SEO, formulaire de contact.
+                </p>
+                <p class="text-primary fw-bold mt-3 mb-3">
+                  À partir de 100 000 FCFA
+                </p>
+                <a class="btn btn-primary px-4 py-2" href="service.html#vitrine"
+                  >En Savoir Plus <i class="bi bi-arrow-right ms-1"></i
+                ></a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
+              <div
+                class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center h-100 p-4 position-relative"
+              >
+                <span class="badge bg-danger position-absolute top-0 end-0 m-3"
+                  >⭐ POPULAIRE</span
+                >
+                <div class="service-icon">
+                  <i class="fa fa-shopping-cart text-white"></i>
+                </div>
+                <h4 class="mb-3">E-Commerce</h4>
+                <p class="m-0">
+                  Boutiques en ligne complètes avec paiement sécurisé. Gestion
+                  produits, paiement en ligne, suivi commandes.
+                </p>
+                <p class="text-primary fw-bold mt-3 mb-3">
+                  À partir de 300 000 FCFA
+                </p>
+                <a
+                  class="btn btn-primary px-4 py-2"
+                  href="service.html#ecommerce"
+                  >Commander <i class="bi bi-arrow-right ms-1"></i
+                ></a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.9s">
+              <div
+                class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center h-100 p-4"
+              >
+                <div class="service-icon">
+                  <i class="fa fa-pen text-white"></i>
+                </div>
+                <h4 class="mb-3">Blogs & Portfolios</h4>
+                <p class="m-0">
+                  Plateformes pour partager votre passion et vos réalisations.
+                  Design épuré, SEO optimisé, gestion facile.
+                </p>
+                <p class="text-primary fw-bold mt-3 mb-3">
+                  À partir de 80 000 FCFA
+                </p>
+                <a class="btn btn-primary px-4 py-2" href="service.html#blog"
+                  >Découvrir <i class="bi bi-arrow-right ms-1"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="text-center mt-5">
+            <a href="service.html" class="btn btn-outline-primary btn-lg">
+              Voir Tous Nos Services <i class="bi bi-arrow-right ms-2"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+      <!-- Services Detailed End -->
+
+      <!-- Testimonials Start -->
+      <section
+        class="container-fluid py-5 wow fadeInUp"
+        data-wow-delay="0.1s"
+        style="background-color: #f8f9fa"
+        aria-labelledby="testimonials-title"
+      >
+        <div class="container py-5">
+          <div
+            class="section-title text-center position-relative pb-3 mb-5 mx-auto"
+            style="max-width: 600px"
+          >
+            <h5
+              id="testimonials-title"
+              class="fw-bold text-primary text-uppercase"
+            >
+              Témoignages
+            </h5>
+            <h1 class="mb-0">Ce que disent nos clients</h1>
+          </div>
+
+          <div class="row g-5">
+            <div class="col-lg-4">
+              <div class="card h-100 border-0 shadow-sm">
+                <div class="card-body">
+                  <div class="mb-3">
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star text-warning"></i>
+                  </div>
+                  <p class="mb-4">
+                    "Excellent travail sur notre site e-commerce. L'équipe a su
+                    comprendre nos besoins et livrer dans les délais."
+                  </p>
+                  <div class="d-flex align-items-center">
+                    <div
+                      class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center me-3"
+                      style="width: 50px; height: 50px"
+                    >
+                      <strong>HG</strong>
+                    </div>
+                    <div>
+                      <h6 class="mb-0">H2P Group</h6>
+                      <small class="text-muted">Directeur Général</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4">
+              <div class="card h-100 border-0 shadow-sm">
+                <div class="card-body">
+                  <div class="mb-3">
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star text-warning"></i>
+                  </div>
+                  <p class="mb-4">
+                    "Support réactif et professionnel. Notre application mobile
+                    fonctionne parfaitement. Je recommande vivement."
+                  </p>
+                  <div class="d-flex align-items-center">
+                    <div
+                      class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center me-3"
+                      style="width: 50px; height: 50px"
+                    >
+                      <strong>WZ</strong>
+                    </div>
+                    <div>
+                      <h6 class="mb-0">Waz'UP</h6>
+                      <small class="text-muted">CEO</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4">
+              <div class="card h-100 border-0 shadow-sm">
+                <div class="card-body">
+                  <div class="mb-3">
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star text-warning"></i>
+                    <i class="fa fa-star text-warning"></i>
+                  </div>
+                  <p class="mb-4">
+                    "Site moderne et performant. Le référencement est excellent
+                    et nous recevons beaucoup plus de demandes."
+                  </p>
+                  <div class="d-flex align-items-center">
+                    <div
+                      class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center me-3"
+                      style="width: 50px; height: 50px"
+                    >
+                      <strong>LB</strong>
+                    </div>
+                    <div>
+                      <h6 class="mb-0">Le Bon Waz</h6>
+                      <small class="text-muted">Fondateur</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Testimonials End -->
+
+      <!-- CTA Section Start -->
+      <section
+        class="container-fluid py-5 wow fadeInUp"
+        data-wow-delay="0.1s"
+        style="
+          background: linear-gradient(
+              rgba(9, 30, 62, 0.9),
+              rgba(9, 30, 62, 0.9)
+            ),
+            url(img/carousel-1.jpg) center center no-repeat;
+          background-size: cover;
+        "
+      >
+        <div class="container py-5">
+          <div class="row justify-content-center">
+            <div class="col-lg-8 text-center">
+              <h5 class="text-white text-uppercase mb-3">
+                Prêt à Lancer Votre Projet ?
+              </h5>
+              <h1 class="display-4 text-white mb-4">
+                Transformons Votre Vision en Réalité Digitale
+              </h1>
+              <p class="text-white-50 fs-5 mb-5">
+                Devis gratuit en 24h • Paiement flexible • Support 24/7
+              </p>
+              <div class="d-flex flex-wrap gap-3 justify-content-center">
+                <a href="tarifs.html" class="btn btn-primary btn-lg px-5"
+                  >Demander un Devis Gratuit
+                  <i class="bi bi-arrow-right ms-2"></i
+                ></a>
+                <a
+                  href="https://wa.me/24166198918?text=Bonjour,%20je%20souhaite%20discuter%20d%27un%20projet%20web"
+                  target="_blank"
+                  class="btn btn-light btn-lg px-5"
+                  ><i class="fab fa-whatsapp me-2"></i>WhatsApp Direct</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- CTA Section End -->
+    </main>
+    <!-- About End -->
+
+    <!-- Footer Start -->
+    <div
+      class="container-fluid bg-dark text-light mt-5 wow fadeInUp"
+      data-wow-delay="0.1s"
+    >
+      <div class="container">
+        <div class="row gx-5">
+          <div class="col-lg-4 col-md-6 footer-about">
+            <div
+              class="d-flex flex-column align-items-center justify-content-center text-center h-100 bg-primary p-4"
+            >
+              <a
+                href="index.html"
+                class="navbar-brand d-flex align-items-center p-0"
+                aria-label="Accueil CodeWave"
+              >
+                <img
+                  src="img/logo/codewave.png"
+                  alt="Logo CodeWave"
+                  height="40"
+                  loading="lazy"
+                  class="me-2"
+                />
+                <span class="h5 m-0 fw-bold text-white">CodeWave</span>
+              </a>
+              <p class="mt-3 mb-4">
+                Votre partenaire Full-Stack à Libreville. Nous concevons des
+                sites web performants, modernes et optimisés pour la croissance
+                de votre entreprise au Gabon et en Afrique.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-8 col-md-6">
+            <div class="row gx-5">
+              <div class="col-lg-4 col-md-12 pt-5 mb-5">
+                <div
+                  class="section-title section-title-sm position-relative pb-3 mb-4"
+                >
+                  <h3 class="text-light mb-0">Nous Contacter</h3>
+                </div>
+                <div class="d-flex mb-2">
+                  <i class="bi bi-geo-alt text-primary me-2"></i>
+                  <p class="mb-0">Libreville, Gabon</p>
+                </div>
+                <div class="d-flex mb-2">
+                  <i class="bi bi-envelope-open text-primary me-2"></i>
+                  <p class="mb-0">ngoubadjambo18@gmail.com</p>
+                </div>
+                <div class="d-flex mb-2">
+                  <i class="bi bi-telephone text-primary me-2"></i>
+                  <p class="mb-0">+241 66 19 89 18</p>
+                </div>
+                <div class="d-flex mt-4">
+                  <a
+                    class="btn btn-primary btn-square me-2"
+                    href="https://facebook.com/mgncodewave"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Facebook M.G.N CodeWave"
+                    ><i class="fab fa-facebook-f fw-normal"></i
+                  ></a>
+                  <a
+                    class="btn btn-primary btn-square me-2"
+                    href="https://linkedin.com/company/mgn-codewave"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="LinkedIn M.G.N CodeWave"
+                    ><i class="fab fa-linkedin-in fw-normal"></i
+                  ></a>
+                  <a
+                    class="btn btn-primary btn-square me-2"
+                    href="https://github.com/MGNCodeWave"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="GitHub M.G.N CodeWave"
+                    ><i class="fab fa-github fw-normal"></i
+                  ></a>
+                  <a
+                    class="btn btn-primary btn-square"
+                    href="https://wa.me/24166198918?text=Bonjour,%20je%20souhaite%20discuter%20d%27un%20projet%20web"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="WhatsApp M.G.N CodeWave"
+                    ><i class="fab fa-whatsapp fw-normal"></i
+                  ></a>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
+                <div
+                  class="section-title section-title-sm position-relative pb-3 mb-4"
+                >
+                  <h3 class="text-light mb-0">Liens Utiles</h3>
+                </div>
+                <div
+                  class="link-animated d-flex flex-column justify-content-start"
+                >
+                  <a class="text-light mb-2" href="index.html"
+                    ><i class="bi bi-arrow-right text-primary me-2"></i
+                    >Accueil</a
+                  >
+                  <a class="text-light mb-2" href="mentions-legale.html"
+                    ><i class="bi bi-arrow-right text-primary me-2"></i>Mentions
+                    Légales</a
+                  >
+                  <a class="text-light mb-2" href="cgu.html"
+                    ><i class="bi bi-arrow-right text-primary me-2"></i
+                    >Condition Générales d'Utilisation</a
+                  >
+                  <a class="text-light mb-2" href="about.html"
+                    ><i class="bi bi-arrow-right text-primary me-2"></i>À
+                    Propos</a
+                  >
+                  <a class="text-light mb-2" href="service.html"
+                    ><i class="bi bi-arrow-right text-primary me-2"></i>Nos
+                    Services</a
+                  >
+                  <a class="text-light mb-2" href="tarifs.html"
+                    ><i class="bi bi-arrow-right text-primary me-2"></i>Demander
+                    un Devis</a
+                  >
+                  <a class="text-light" href="contact.html"
+                    ><i class="bi bi-arrow-right text-primary me-2"></i
+                    >Contact</a
+                  >
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
+                <div
+                  class="section-title section-title-sm position-relative pb-3 mb-4"
+                >
+                  <h3 class="text-light mb-0">Nos Services Clés</h3>
+                </div>
+                <div
+                  class="link-animated d-flex flex-column justify-content-start"
+                >
+                  <a class="text-light mb-2" href="service.html#vitrine"
+                    ><i class="bi bi-arrow-right text-primary me-2"></i>Sites
+                    Web Vitrines</a
+                  >
+                  <a class="text-light mb-2" href="service.html#ecommerce"
+                    ><i class="bi bi-arrow-right text-primary me-2"></i
+                    >Plateformes E-commerce</a
+                  >
+                  <a class="text-light mb-2" href="service.html#blog"
+                    ><i class="bi bi-arrow-right text-primary me-2"></i>Blogs &
+                    Portfolios</a
+                  >
+                  <a class="text-light mb-2" href="service.html#maintenance"
+                    ><i class="bi bi-arrow-right text-primary me-2"></i
+                    >Maintenance & Hébergement</a
+                  >
+                  <a class="text-light mb-2" href="service.html#seo"
+                    ><i class="bi bi-arrow-right text-primary me-2"></i
+                    >Optimisation SEO</a
+                  >
+                  <a class="text-light" href="tarifs.html"
+                    ><i class="bi bi-arrow-right text-primary me-2"></i>Voir Nos
+                    Tarifs</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid text-white" style="background: #061429">
+      <div class="container text-center">
+        <div class="row justify-content-end">
+          <div class="col-lg-8 col-md-6">
+            <div
+              class="d-flex align-items-center justify-content-center"
+              style="height: 75px"
+            >
+              <p class="mb-0">
+                &copy;
+                <a class="text-white border-bottom" href="index.html"
+                  >M.G.N CodeWave</a
+                >, 2025. Tous Droits Réservés.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a
+      href="#"
+      class="btn btn-lg btn-primary btn-lg-square rounded back-to-top"
+      aria-label="Retour en haut"
+      ><i class="bi bi-arrow-up" aria-hidden="true"></i
+    ></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    <script src="js/whatsapp-widget.js"></script>
+  </body>
+</html>
