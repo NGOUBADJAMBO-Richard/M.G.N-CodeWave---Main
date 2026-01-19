@@ -38,7 +38,6 @@ Permettre aux entreprises gabonaises de réussir en ligne avec des solutions acc
 ### Pages Principales
 
 - **🏠 Accueil (index.html)**
-
   - Hero section avec carousel dynamique
   - Section "À Propos" avec statistiques
   - Services détaillés avec prix
@@ -46,26 +45,22 @@ Permettre aux entreprises gabonaises de réussir en ligne avec des solutions acc
   - Call-to-Action puissants
 
 - **👥 À Propos (about.html)**
-
   - Histoire de l'entreprise
   - Mission, Vision & Valeurs
   - Stack technique
   - Pourquoi nous choisir
 
 - **⚙️ Services (service.html)**
-
   - Catalogue complet des services
   - Détails techniques
   - Tarifs indicatifs
 
 - **🎨 Portfolio (portfolio.html)**
-
   - Projets réalisés
   - Filtres par catégorie
   - Détails des projets
 
 - **💰 Tarifs (tarifs.html)**
-
   - Grilles tarifaires détaillées
   - Comparaison des packs
   - Formulaire de devis
@@ -171,7 +166,6 @@ M.G.N-CodeWave/
    ```
 
 2. **Ouvrir avec Live Server** (VS Code)
-
    - Installer l'extension "Live Server" dans VS Code
    - Clic droit sur `index.html` > "Open with Live Server"
 
@@ -195,7 +189,7 @@ M.G.N-CodeWave/
 Éditer les fichiers HTML pour mettre à jour :
 
 - **Téléphone** : +241 66 19 89 18
-- **Email** : ngoubadjambo18@gmail.com
+- **Email** : mgncodewave18@gmail.com
 - **WhatsApp** : Lien avec message pré-rempli
 - **Réseaux sociaux** : Facebook, LinkedIn, GitHub
 
@@ -282,7 +276,7 @@ Ce projet est sous licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus de 
 **M.G.N CodeWave**
 
 - 🌐 Site Web : [mgncodewave.com](https://mgncodewave.com)
-- 📧 Email : ngoubadjambo18@gmail.com
+- 📧 Email : mgncodewave18@gmail.com
 - 📱 Téléphone : +241 66 19 89 18
 - 💬 WhatsApp : [Contactez-nous](https://wa.me/24166198918)
 - 🔗 LinkedIn : [M.G.N CodeWave](https://linkedin.com/company/mgn-codewave)
